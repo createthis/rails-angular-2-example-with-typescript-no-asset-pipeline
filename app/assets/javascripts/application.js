@@ -13,4 +13,15 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//<!-- IE required polyfill -->
+//= require "core-js/client/shim.min"
+//= require "zone.js/dist/zone"
+//= require "reflect-metadata/Reflect"
+//= require "rxjs/bundles/Rx.umd"
+//= require "@angular/core/bundles/core.umd"
+//= require "@angular/common/bundles/common.umd"
+//= require "@angular/compiler/bundles/compiler.umd"
+//= require "@angular/platform-browser/bundles/platform-browser.umd"
+//= require "@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd"
+//= require "systemjs/dist/system.src"
 //= require_tree .
